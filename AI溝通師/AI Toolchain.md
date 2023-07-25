@@ -1,7 +1,3 @@
----
-layout: slide
----
-
 # 你應該用AI創造自己的工具組和工作流
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
