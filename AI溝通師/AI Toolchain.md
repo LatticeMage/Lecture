@@ -2,16 +2,18 @@
 layout: slides
 ---
 
-# 你應該用AI創造自己的工具組和工作流
+# ai-toolchain
 
 <div class="slide" id="slide0" data-slide="0">
-<h2 style="display:none;">Slide 0</h2>  
+## Slide 0
+
+你應該用AI創造自己的工具組和工作流
 
 因為只有你最知道你自己的需求
 </div>
 
 <div class="slide" id="slide1" data-slide="1">
-<h2 style="display:none;">Slide 1</h2>
+## Slide 1
 
 你應該用AI創造自己的工具組和工作流
 
@@ -19,7 +21,7 @@ layout: slides
 </div>
 
 <div class="slide" id="slide2" data-slide="2">
-<h2 style="display:none;">Slide 2</h2>
+## Slide 2
 
 比如這樣
 
