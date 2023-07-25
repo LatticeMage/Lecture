@@ -36,7 +36,7 @@ layout: slides
 ## 不用被綁架
 ex: hackmd網站更新無法使用舊版功能  
 ex: discord是私人群組，而且內容不好備份  
-<img src="./toolchain/3-hackmd.png" width="300"><img src="./toolchain/3-discord.png" width="500">  
+<img src="./toolchain/3-hackmd.png" width="275">or<img src="./toolchain/3-discord.png" width="475">  
 </div>
 
 
@@ -67,10 +67,8 @@ ex: discord是私人群組，而且內容不好備份
 
 <div class="slide">
 ## AI其他用法
-* 看得懂TUI
-* 可以寫各種mermaid語法，比如gantt圖、流程圖、樹狀圖
-* 架設甚至製作各種工具
-  * ex: 這個投影片模式
+* 看得懂TUI、可以寫各種mermaid語法，比如gantt圖、流程圖、樹狀圖
+* 架設甚至製作各種工具 ex: 這個投影片模式
 * 輔助打牌下棋分析
 
 <img src="./toolchain/8-naga.png" width="400"><img src="./toolchain/8-kata.png" width="400">
