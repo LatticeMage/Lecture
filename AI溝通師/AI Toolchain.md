@@ -1,3 +1,13 @@
+<style>
+  .slide h2 {
+    display: none;
+  }
+
+  .slide.visible h2 {
+    display: block;
+  }
+</style>
+
 # 你應該用AI創造自己的工具組和工作流
 
 ## Slide 0
@@ -24,7 +34,7 @@ $(document).ready(function() {
 
   // Hide all slides except the first one
   $('.slide').hide();
-  $('#slide' + currentSlide).show();
+  $('#slide' + currentSlide).addClass('visible').show();
 
   // Add the navigation buttons
   var prevSlideButton = '<button id="prevSlide" style="position: fixed; left: 10px; bottom: 10px; font-size: 2em;">Previous Slide</button>';
@@ -37,13 +47,13 @@ $(document).ready(function() {
   // When the Next Slide button is clicked
   $('#nextSlide').click(function() {
     // Hide current slide
-    $('#slide' + currentSlide).hide();
+    $('#slide' + currentSlide).removeClass('visible').hide();
 
     // Increment currentSlide
     currentSlide = (currentSlide + 1) % totalSlides;
 
     // Show next slide
-    $('#slide' + currentSlide).show();
+    $('#slide' + currentSlide).addClass('visible').show();
 
     // Enable the Previous Slide button
     $('#prevSlide').prop('disabled', false);
@@ -57,13 +67,13 @@ $(document).ready(function() {
   // When the Previous Slide button is clicked
   $('#prevSlide').click(function() {
     // Hide current slide
-    $('#slide' + currentSlide).hide();
+    $('#slide' + currentSlide).removeClass('visible').hide();
 
     // Decrement currentSlide
     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
 
     // Show previous slide
-    $('#slide' + currentSlide).show();
+    $('#slide' + currentSlide).addClass('visible').show();
 
     // Enable the Next Slide button
     $('#nextSlide').prop('disabled', false);
@@ -71,6 +81,29 @@ $(document).ready(function() {
     // Disable the Previous Slide button if this is the first slide
     if (currentSlide === 0) {
       $('#prevSlide').prop('disabled', true);
+    }
+  });
+
+  // Handle click on table of contents
+  $('#toc a').click(function(event) {
+    event.preventDefault();
+
+    var targetSlide = $(this).attr('href').substring(1);
+    var targetIndex = $('.slide').index($('#' + targetSlide));
+
+    if (targetIndex >= 0) {
+      // Hide current slide
+      $('#slide' + currentSlide).removeClass('visible').hide();
+
+      // Set current slide to target
+      currentSlide = targetIndex;
+
+      // Show target slide
+      $('#slide' + currentSlide).addClass('visible').show();
+
+      // Enable or disable navigation buttons
+      $('#prevSlide').prop('disabled', currentSlide === 0);
+      $('#nextSlide').prop('disabled', currentSlide === totalSlides - 1);
     }
   });
 });
