@@ -106,7 +106,7 @@ ex: 預設進入conda、右鍵各種開啟
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 <script>
     var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: "https://aaaaa.com",
+        text: "https://docs.google.com/forms/d/1WZp_FgBkWbPIk2k92X5K7BYdLrFLUaKnEDwQhsjU8dI",
         width: 300,
         height: 300,
         colorDark : "#000000",
