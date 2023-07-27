@@ -104,15 +104,9 @@ ex: 預設進入conda、右鍵各種開啟
 </style>
 
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script src="/_includes/QRCodeFunc.js"></script>
 <script>
-    var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: "https://forms.gle/ozcGi5wQPb8fQdNj6",
-        width: 300,
-        height: 300,
-        colorDark : "#000000",
-        colorLight : "#ffffff",
-        correctLevel : QRCode.CorrectLevel.H
-    });
+    generateQRCode("aaa.com"); // https://forms.gle/ozcGi5wQPb8fQdNj6
 </script>
 
 </div>
