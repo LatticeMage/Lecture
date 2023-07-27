@@ -1,6 +1,6 @@
 const XLSX = require('xlsx');
 
-function ParseXLSX(workbook) {
+export function ParseXLSX(workbook) {
     // Get the sheet names
     let sheetNames = workbook.SheetNames;
 
