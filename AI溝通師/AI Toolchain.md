@@ -105,9 +105,8 @@ ex: 預設進入conda、右鍵各種開啟
 
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 
-{% include GenQRCode.js %}
-
 <script>
+    {% include GenQRCode.js %}
     GenQRCode("aaa.com"); // https://forms.gle/ozcGi5wQPb8fQdNj6
 </script>
 
