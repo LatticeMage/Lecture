@@ -66,9 +66,12 @@ ex: discord是私人群組，而且內容不好備份
 </div>
 
 <div class="slide">
-## AI其他用法
-* 看得懂TUI、可以寫各種mermaid語法，比如gantt圖、流程圖、樹狀圖
-* 架設甚至製作各種工具 ex: 這個投影片模式
+## 汙染社群媒體
+<img src="./toolchain/11-tiktok.png" width="800">
+
+</div>
+
+<div class="slide">
 * 輔助打牌下棋分析
 
 <img src="./toolchain/8-naga.png" width="400"><img src="./toolchain/8-kata.png" width="400">
