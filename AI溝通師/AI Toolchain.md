@@ -62,15 +62,8 @@ ex: discord是私人群組，而且內容不好備份
 
 </div>
 
-
 <div class="slide">
-## 汙染社群媒體
-<img src="./toolchain/11-tiktok.png" width="800">
-
-</div>
-
-<div class="slide">
-* 輔助打牌下棋分析
+## 輔助打牌下棋分析
 
 <img src="./toolchain/8-naga.png" width="400"><img src="./toolchain/8-kata.png" width="400">
 
@@ -95,6 +88,13 @@ katago圖片來自[katago专用对弈分析软件katrain – 天祺围棋](https
 ## 系統工具
 ex: 預設進入conda、右鍵各種開啟  
 <img src="./toolchain/10-ps.png" width="400"> and <img src="./toolchain/10-rc.png" width="300">
+
+</div>
+
+
+<div class="slide">
+## 汙染社群媒體
+<img src="./toolchain/11-tiktok.png" width="800">
 
 </div>
 
