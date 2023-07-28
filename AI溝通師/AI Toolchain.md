@@ -64,12 +64,6 @@ ex: discord是私人群組，而且內容不好備份
 
 
 <div class="slide">
-## 視覺化分析
-<img src="./toolchain/7-visual.png" width="500">
-
-</div>
-
-<div class="slide">
 ## 汙染社群媒體
 <img src="./toolchain/11-tiktok.png" width="800">
 
@@ -83,6 +77,13 @@ ex: discord是私人群組，而且內容不好備份
 katago圖片來自[katago专用对弈分析软件katrain – 天祺围棋](https://www.tianqiweiqi.com/katago-katrain.html)
 
 </div>
+
+<div class="slide">
+## 視覺化分析
+<img src="./toolchain/7-visual.png" width="500">
+
+</div>
+
 
 <div class="slide">
 ## 上字幕
