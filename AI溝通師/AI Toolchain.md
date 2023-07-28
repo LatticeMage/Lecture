@@ -2,7 +2,7 @@
 layout: slides
 ---
 
-# 增肥v53 <img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px">PosetMage<img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px"> - 用AI創造自己的工具組
+# 增肥v53 <img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px">PosetMage<img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px"> - 用AI創造自己的工作流
 
 
 <style>
