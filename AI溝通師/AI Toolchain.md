@@ -4,12 +4,16 @@ layout: slides
 
 # 增肥v53 <img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px">PosetMage<img src="https://posetmage.com/Images/Icon/PosetMage_t.png" width="32px"> - 用AI創造自己的工具組
 
+
+<style>
+.enlarged-text {
+    font-size: 3em; /* Change this value to adjust the size */
+}
+</style>
 <div class="slide">
-## 標題
+## 你應該用AI建立自己的工作流
 
-你應該用AI建立自己的工作流
-
-因為只有你最知道你自己的需求
+<p class="enlarged-text">因為只有你最知道你自己的需求</p>
 
 最後會有問卷請大家幫忙填你希望用AI解決什麼你的痛點
 </div>
