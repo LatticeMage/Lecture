@@ -20,7 +20,8 @@ layout: slides
 
 <div class="slide">
 ## 舉例md檔
-其他筆記網站不好在不同地方sync  
+* 可以整包zip給AI去查資料
+* 其他筆記網站不好在不同地方sync  
 而且這樣可以用不同軟體開啟 - foam vs obsidian  
 <img src="./toolchain/2-foam.png" width="420">vs<img src="./toolchain/2-obsidian.png" width="350">  
 </div>
