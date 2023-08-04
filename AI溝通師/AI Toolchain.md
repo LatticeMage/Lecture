@@ -24,6 +24,7 @@ layout: slides
   * 可以整包zip給AI去做文字處理、很好批量處理
   * 其他筆記網站不好在不同地方sync  
   * 不用被平台綁架，可以用不同軟體開啟 - foam vs obsidian  
+
 <img src="./toolchain/2-foam.png" width="420">vs<img src="./toolchain/2-obsidian.png" width="350">  
 </div>
 
@@ -64,7 +65,7 @@ ex: discord是私人群組，而且內容不好備份
 
 <div class="slide">
 ## 遊戲劇本圖文
-<img src="./toolchain/6-novel1.png" width="400"><img src="./toolchain/6-novel2.png" width="400">
+<img src="./toolchain/6-novel1.png" width="400"><img src="./toolchain/6-novel2.png" width="400">  
 [網站](https://posetmage.com/Portfolio/Siegel%20Battle/Dialog.html) [原始碼](https://github.com/posetmage/Portfolio/tree/master/Siegel%20Battle/Dialog)
 
 </div>
@@ -80,32 +81,34 @@ katago圖片來自[katago专用对弈分析软件katrain – 天祺围棋](https
 
 <div class="slide">
 ## 視覺化分析
-<img src="./toolchain/7-visual.png" width="500">
+<img src="./toolchain/7-visual.png" width="500">  
 [網站](https://wiki.posetmage.com/AI/Cthulhu/NAGA) [原始碼](https://raw.githubusercontent.com/LatticeMage/AI/master/Cthulhu/NAGA.md)
 </div>
 
 
 <div class="slide">
 ## 上字幕
-<img src="./toolchain/9-sub1.png" width="400"><img src="./toolchain/9-sub2.png" width="400">
+<img src="./toolchain/9-sub1.png" width="400"><img src="./toolchain/9-sub2.png" width="400">  
 [原始碼](https://github.com/LatticeMage/Tools/tree/main/Subtitle)
 </div>
 
 <div class="slide">
 ## 系統工具
 ex: 預設進入conda、右鍵各種開啟  
-<img src="./toolchain/10-ps.png" width="400"> and <img src="./toolchain/10-rc.png" width="300">
+<img src="./toolchain/10-ps.png" width="400"> and <img src="./toolchain/10-rc.png" width="300">  
 [原始碼](https://github.com/LatticeMage/Tools/tree/main/Windows)
 </div>
 
 
 <div class="slide">
 ## 汙染社群媒體
-<img src="./toolchain/11-tiktok.png" width="800">
+<img src="./toolchain/11-tiktok.png" width="800">  
 [網站](https://www.tiktok.com/@aimageguild)
 </div>
 
 <div class="slide">
 ## 自架問卷系統
-[範例網站](https://posetmage.com/Survey/Survey03) [原始碼](https://github.com/posetmage/Survey)
+<img src="./toolchain/13-survey.png" width="800">  
+[範例網站](https://posetmage.com/Survey/Survey03)  
+[原始碼](https://github.com/posetmage/Survey)
 </div>
