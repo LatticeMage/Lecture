@@ -19,7 +19,7 @@ layout: slides
 
 <div class="slide">
 ## 為甚麼學AI很難
-<img src="./SlideImages/HardToLearn/wizard-using-computer.png width=700">  
+<img src="./SlideImages/HardToLearn/wizard-using-computer.png" width=700>  
 正詠詞:a wizard using computer
 </div>
 
@@ -27,7 +27,7 @@ layout: slides
 ## 難點：找到方向
 <table>
 <tr>
-<td class="slide-image"><img src="./SlideImages/HardToLearn/maze.png"></td>
+<td><img src="./SlideImages/HardToLearn/maze.png"></td>
 <td class="slide-text">要先找到想解決的問題或挑戰</td>
 </tr>
 </table>
@@ -38,7 +38,7 @@ layout: slides
 <div class="slide">
 ## 難點：第二型知識
 <tr>
-<td class="slide-image"><img src="./SlideImages/HardToLearn/2-brain.png"></td>
+<td><img src="./SlideImages/HardToLearn/2-brain.png"></td>
 <td class="slide-text">第二型知識是你可以靈活運用的第一型知識</td>
 </tr>
 </table>
