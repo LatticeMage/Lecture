@@ -59,10 +59,16 @@ td img {
 
 
 <div class="slide">
+
 ## 詠唱詞
+
 * Stable Diffusion 基本設定
   * revAnimated
   * 反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
 * [ChatGPT詠唱過程](./Slides/HardToLearn/chat.html)
+
+### 推薦影片
+[ChatGPT给的机会, 你能抓住吗?](https://www.youtube.com/watch?v=KoT08Kno10A)  
+<iframe width="450" height="255" src="https://www.youtube.com/embed/KoT08Kno10A" title="YouTube video player" frameborder="0" ></iframe>
 
 </div>
