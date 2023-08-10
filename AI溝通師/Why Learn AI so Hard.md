@@ -18,7 +18,7 @@ td img {
 
 <div class="slide">
 ## 為甚麼學AI很難
-<img src="./SlideImages/HardToLearn/wizard-using-computer.png" width=700>  
+<img src="./Slides/HardToLearn/wizard-using-computer.png" width=700>  
 正詠詞:a wizard using computer
 </div>
 
@@ -26,7 +26,7 @@ td img {
 ## 難點：找到方向
 <table>
 <tr>
-<td><img src="./SlideImages/HardToLearn/maze.png"></td>
+<td><img src="./Slides/HardToLearn/maze.png"></td>
 <td>要先找到想解決的問題或挑戰</td>
 </tr>
 </table>
@@ -38,7 +38,7 @@ td img {
 ## 難點：第二型知識
 <tr>
 <table>
-<td><img src="./SlideImages/HardToLearn/2-brain.png"></td>
+<td><img src="./Slides/HardToLearn/2-brain.png"></td>
 <td>第二型知識是你可以靈活運用的第一型知識</td>
 </tr>
 </table>
@@ -50,7 +50,7 @@ td img {
 ## 難點：跨領域整合
 <table>
 <tr>
-<td><img src="./SlideImages/HardToLearn/multi-hand.png"></td>
+<td><img src="./Slides/HardToLearn/multi-hand.png"></td>
 <td>AI也是一種第二型知識，所以是一種跨領域的整合</td>
 </tr>
 </table>
@@ -59,8 +59,10 @@ td img {
 
 
 <div class="slide">
-## SD詠唱詞
-* revAnimated
-* 基本反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
+## 詠唱詞
+* Stable Diffusion 基本設定
+  * revAnimated
+  * 反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
+* [ChatGPT詠唱過程](./Slides/HardToLearn/chat.html)
 
 </div>
