@@ -3,14 +3,13 @@ layout: slides
 ---
 
 <style>
-
-.slide-text {
-  width: 400px;
+td {
+  width: 400px; /* Set the width of each table cell */
   vertical-align: middle;
 }
 
-.table-cell img {
-  max-width: 100%; /* Make the image fit within the table cell */
+td img {
+  width: 100%; /* Make the image fit within the table cell */
   height: auto; /* Let the image height adjust automatically */
 }
 </style>
@@ -28,7 +27,7 @@ layout: slides
 <table>
 <tr>
 <td><img src="./SlideImages/HardToLearn/maze.png"></td>
-<td class="slide-text">要先找到想解決的問題或挑戰</td>
+<td>要先找到想解決的問題或挑戰</td>
 </tr>
 </table>
 正詠詞: a complex labyrinth maze
@@ -38,8 +37,9 @@ layout: slides
 <div class="slide">
 ## 難點：第二型知識
 <tr>
+<table>
 <td><img src="./SlideImages/HardToLearn/2-brain.png"></td>
-<td class="slide-text">第二型知識是你可以靈活運用的第一型知識</td>
+<td>第二型知識是你可以靈活運用的第一型知識</td>
 </tr>
 </table>
 正詠詞: two brain, one brain having text, another brain thinking oral talking
@@ -47,32 +47,20 @@ layout: slides
 </div>
 
 <div class="slide">
-## 領域知識的重要性
-
-使用AI需要具備相關領域的第二型知識
-
-<img src="./images/domain-knowledge.png" width="400">
+## 難點：跨領域整合
+<table>
+<tr>
+<td><img src="./SlideImages/HardToLearn/multi-hand.png"></td>
+<td>AI也是一種第二型知識，所以是一種跨領域的整合</td>
+</tr>
+</table>
+正詠詞: juggler, multi-arms, 6 arms, playing guitar, playing ball, playing violin, playing piano, playing drum
 </div>
 
-<div class="slide">
-## 使用AI的挑戰
-
-使用AI需要有第二型知識的挑戰和重要性
-
-<img src="./images/ai-challenge.png" width="400">
-</div>
-
-<div class="slide">
-## 總結
-
-回顧主要的困難點和解決方案
-
-<img src="./images/summary.png" width="400">
-</div>
 
 <div class="slide">
 ## SD詠唱詞
 * revAnimated
-* 反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
+* 基本反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
 
 </div>
