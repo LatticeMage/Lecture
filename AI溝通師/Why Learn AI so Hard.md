@@ -14,10 +14,10 @@ td img {
 }
 </style>
 
-# 為甚麼學AI很難
+# 為什麼學AI很難
 
 <div class="slide">
-## 為甚麼學AI很難
+## 為什麼學AI很難
 <img src="./Slides/HardToLearn/wizard-using-computer.png" width=700>  
 正詠詞:a wizard using computer
 </div>
