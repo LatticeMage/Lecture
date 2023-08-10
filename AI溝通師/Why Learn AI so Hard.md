@@ -3,22 +3,25 @@ layout: slides
 ---
 
 <style>
-.slide-image {
-  width: 400px;
-}
 
 .slide-text {
   width: 400px;
   vertical-align: middle;
 }
 
-.slide-image img {
-  width: 100%;
+.table-cell img {
+  max-width: 100%; /* Make the image fit within the table cell */
+  height: auto; /* Let the image height adjust automatically */
 }
 </style>
 
 # 為甚麼學AI很難
 
+<div class="slide">
+## 為甚麼學AI很難
+<img src="./SlideImages/HardToLearn/wizard-using-computer.png width=700">  
+正詠詞:a wizard using computer
+</div>
 
 <div class="slide">
 ## 難點一：找到方向
@@ -28,10 +31,9 @@ layout: slides
 <td class="slide-text">想解決的問題或挑戰</td>
 </tr>
 </table>
+正詠詞: a complex labyrinth maze
 </div>
 
-<img src="./images/direction-question.png" width="400">
-</div>
 
 <div class="slide">
 ## 可以請求AI的幫助
@@ -71,4 +73,11 @@ layout: slides
 回顧主要的困難點和解決方案
 
 <img src="./images/summary.png" width="400">
+</div>
+
+<div class="slide">
+## SD詠唱詞
+* revAnimated
+* 反詠詞： lowres, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts,signature, watermark, username, blurry, artist name,
+
 </div>
