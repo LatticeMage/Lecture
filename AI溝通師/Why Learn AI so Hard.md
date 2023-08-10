@@ -36,8 +36,8 @@ td img {
 
 <div class="slide">
 ## 難點：第二型知識
-<tr>
 <table>
+<tr>
 <td><img src="./Slides/HardToLearn/2-brain.png"></td>
 <td>第二型知識是你可以靈活運用的第一型知識</td>
 </tr>
