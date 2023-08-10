@@ -2,12 +2,33 @@
 layout: slides
 ---
 
+<style>
+.slide-image {
+  width: 400px;
+}
+
+.slide-text {
+  width: 400px;
+  vertical-align: middle;
+}
+
+.slide-image img {
+  width: 100%;
+}
+</style>
+
 # 為甚麼學AI很難
+
 
 <div class="slide">
 ## 難點一：找到方向
-
-找到合適的專案或想解決的問題的挑戰
+<table>
+<tr>
+<td class="slide-image"><img src="./SlideImages/HardToLearn/maze.png"></td>
+<td class="slide-text">想解決的問題或挑戰</td>
+</tr>
+</table>
+</div>
 
 <img src="./images/direction-question.png" width="400">
 </div>
