@@ -83,7 +83,7 @@ td img {
 <table>
 <tr>
 <td><img src="./Slides/HardToLearn/multi-hand.png"></td>
-<td>使用AI生產做一件事，可能是寫小說、寫程式、畫圖、</br>基於這個第一版產出，你去尋找某個領域的知識，想想怎麼結合與改進
+<td>使用AI生產做一件事，可能是寫小說、寫程式、畫圖、......<br>基於這個第一版產出，你去尋找某個領域的知識，想想怎麼結合與改進
 </td>
 </tr>
 </table>
@@ -94,14 +94,10 @@ td img {
 <table>
 <tr>
 <td><img src="./Slides/HardToLearn/multi-hand.png"></td>
-<td>找到一個可以持續改進、持續生產的循環</br>
-ex: AI寫小劇本，然後去看劇本知識，比如幕的規劃，再請AI幫忙規劃幕之間的關係、
+<td>找到一個可以持續改進、持續生產的循環<br>
+ex: AI寫小劇本，然後去看劇本知識，比如幕的規劃，再請AI幫忙規劃幕之間的關係、......<br>
+ex: 跟AI學hello world，然後請AI教更多的程式概念比如變數迴圈，再請AI寫變數迴圈的demo code、......
 </td>
 </tr>
 </table>
-
-
-
-
-
 </div>
