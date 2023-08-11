@@ -35,15 +35,19 @@ td img {
 
 
 <div class="slide">
-## 難點：第二型知識
+## 難點：第二階段知識
 <table>
 <tr>
 <td><img src="./Slides/HardToLearn/2-brain.png"></td>
-<td>第二型知識是你可以靈活運用的第一型知識</td>
+<td>第二階段知識是你可以靈活運用的第一階段知識</td>
 </tr>
 </table>
-正詠詞: two brain, one brain having text, another brain thinking oral talking
-反詠詞增加: human, women, 
+正詠詞: two brain, one brain having text, another brain thinking oral talking  
+反詠詞增加: human, women,  
+
+### 推薦影片
+<iframe width="450" height="255" src="https://www.youtube.com/embed/jRjBUbxQ0O0" title="YouTube video player" frameborder="0" ></iframe>
+
 </div>
 
 <div class="slide">
@@ -51,7 +55,7 @@ td img {
 <table>
 <tr>
 <td><img src="./Slides/HardToLearn/multi-hand.png"></td>
-<td>AI也是一種第二型知識，所以是一種跨領域的整合</td>
+<td>AI是一種第二階段知識，加上原本的領域第二階段，需要跨領域的整合</td>
 </tr>
 </table>
 正詠詞: juggler, multi-arms, 6 arms, playing guitar, playing ball, playing violin, playing piano, playing drum
