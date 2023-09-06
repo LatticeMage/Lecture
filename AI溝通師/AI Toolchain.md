@@ -76,7 +76,7 @@ katago圖片來自[katago专用对弈分析软件katrain – 天祺围棋](https
 <div class="slide">
 ## 視覺化分析
 <img src="./Slides/toolchain/7-visual.png" width="500">  
-[網站](https://wiki.posetmage.com/AI/Cthulhu/NAGA) [原始碼](https://raw.githubusercontent.com/LatticeMage/AI/master/Cthulhu/NAGA.md)
+[網站](/AI/Cthulhu/NAGA) [原始碼](https://raw.githubusercontent.com/LatticeMage/AI/master/Cthulhu/NAGA.md)
 </div>
 
 

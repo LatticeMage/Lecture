@@ -3,11 +3,11 @@
 ###### tags: `_講義 理論作曲`
 
 ## Symbols
-* [Pitch](https://wiki.posetmage.com/Knowledge/Art/Music/Music%20Theory/Pitch/)
-* [Interval](https://wiki.posetmage.com/Knowledge/Art/Music/Music%20Theory/Interval/)
-* [Solfege](https://wiki.posetmage.com/Knowledge/Art/Music/Music%20Theory/Solfege/)
-* [Chord Notation](https://wiki.posetmage.com/Knowledge/Art/Music/Music%20Theory/Chord%20Notation/)
-* [Diatonic](https://wiki.posetmage.com/Knowledge/Art/Music/Music%20Theory/Diatonic/)
+* [Pitch](/Knowledge/Art/Music/Music%20Theory/Pitch/)
+* [Interval](/Knowledge/Art/Music/Music%20Theory/Interval/)
+* [Solfege](/Knowledge/Art/Music/Music%20Theory/Solfege/)
+* [Chord Notation](/Knowledge/Art/Music/Music%20Theory/Chord%20Notation/)
+* [Diatonic](/Knowledge/Art/Music/Music%20Theory/Diatonic/)
 
 ## Musescore
 [十分鐘之內，學會用電腦製作樂譜！（MuseScore）](https://www.youtube.com/watch?v=LAOM7JiDp4E)
