@@ -4,6 +4,12 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>  
 
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
+  let config = { startOnLoad: true, flowchart: { useMaxWidth: false, htmlLabels: true } };
+  mermaid.initialize(config);
+</script>
+
 <div class="mermaid">
 classDiagram
     note "From Duck till Zebra"
