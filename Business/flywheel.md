@@ -14,6 +14,7 @@
 
 <script>
     mermaid.initialize({
+        startOnLoad: true,  // Added this property
         flowchart: {
             useMaxWidth: true,
         },
