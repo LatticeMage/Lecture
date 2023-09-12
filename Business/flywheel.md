@@ -1,8 +1,24 @@
 
 # Flywheel Test
 
+<style>
+    .mermaid {
+        width: 100%;
+        max-width: 100%;
+    }
+</style>
+
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+</script>
+
+<script>
+    mermaid.initialize({
+        flowchart: {
+            useMaxWidth: true,
+        },
+        theme: 'default'
+    });
 </script>
 
 <!-- use the space below to define your chart -->
