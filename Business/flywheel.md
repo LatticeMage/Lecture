@@ -22,7 +22,7 @@
 </script>
 
 <!-- use the space below to define your chart -->
-<pre class="mermaid">
+<div class="mermaid">
  %% Code for flowchart below
 graph TB
     sq[Square shape] --> ci((Circle shape))
@@ -45,9 +45,9 @@ graph TB
      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
      class sq,e green
      class di orange
-</pre>
+</div>
 
-<pre class="mermaid">
+<div class="mermaid">
 %% Sequence diagram code
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
@@ -58,27 +58,27 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-</pre>
+</div>
 
 <div id="katex1"></div>
 <div id="katex2"></div>
   
-<pre class="mermaid">
+<div class="mermaid">
   
  
-</pre>
+</div>
 
 
 
-<pre class="mermaid"></pre>
+<div class="mermaid"></div>
 
 
 <!-- mermaid output below -->
-<pre class="mermaid" id="mermaidChart0">
+<div class="mermaid" id="mermaidChart0">
   <svg>
         Chart ends up here
     </svg>
-</pre>
+</div>
   
   
 
