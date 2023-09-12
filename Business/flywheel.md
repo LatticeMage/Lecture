@@ -2,13 +2,11 @@
 # Flywheel Test
 
 <script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
-  let config = { startOnLoad: true, flowchart: { useMaxWidth: false, htmlLabels: true } };
-  mermaid.initialize(config);
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
 </script>
 
 <!-- use the space below to define your chart -->
-<div class="mermaid">
+<pre class="mermaid">
  %% Code for flowchart below
 graph TB
     sq[Square shape] --> ci((Circle shape))
@@ -31,9 +29,9 @@ graph TB
      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
      class sq,e green
      class di orange
-</div>
+</pre>
 
-<div class="mermaid">
+<pre class="mermaid">
 %% Sequence diagram code
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
@@ -44,27 +42,27 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-</div>
+</pre>
 
 <div id="katex1"></div>
 <div id="katex2"></div>
   
-<div class="mermaid">
+<pre class="mermaid">
   
  
-</div>
+</pre>
 
 
 
-<div class="mermaid"></div>
+<pre class="mermaid"></pre>
 
 
 <!-- mermaid output below -->
-<div class="mermaid" id="mermaidChart0">
+<pre class="mermaid" id="mermaidChart0">
   <svg>
         Chart ends up here
     </svg>
-</div>
+</pre>
   
   
 
