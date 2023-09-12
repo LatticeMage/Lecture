@@ -14,7 +14,7 @@
 
 <script>
     mermaid.initialize({
-        startOnLoad: true,  // Added this property
+        startOnLoad: true,
         flowchart: {
             useMaxWidth: true,
         },
@@ -23,7 +23,7 @@
 </script>
 
 <!-- use the space below to define your chart -->
-<div class="mermaid">
+<pre class="mermaid">
  %% Code for flowchart below
 graph TB
     sq[Square shape] --> ci((Circle shape))
@@ -46,7 +46,7 @@ graph TB
      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
      class sq,e green
      class di orange
-</div>
+</pre>
 
 <div class="mermaid">
 %% Sequence diagram code
