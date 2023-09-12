@@ -9,17 +9,9 @@
 
 
 <div class="mermaid">
-
 graph TD;
-  A --> A;
-  A --> XXX;
-  XXX --> B;
-  XXX --> C;
-  
-  A --> YYY;
-  YYY --> Q;
-  YYY --> W;
-  YYY --> E;
-  YYY --> R;
-
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 </div>
