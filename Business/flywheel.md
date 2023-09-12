@@ -3,10 +3,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js"></script>
 
-<script>mermaid.initialize({startOnLoad:true});</script>
+<script>
+    mermaid.initialize({startOnLoad:true});
+</script>
 
 
-```mermaid
+<div class="mermaid">
 
 graph TD;
   A --> A;
@@ -20,4 +22,4 @@ graph TD;
   YYY --> E;
   YYY --> R;
 
-```
+</div>
