@@ -16,7 +16,6 @@ html, body {
 iframe {
     display: block; /* ensures it takes up all available space */
     width: 100%;
-    height: 100%;
     border: none;
     background-color: white;
 }
