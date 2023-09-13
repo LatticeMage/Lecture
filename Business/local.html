@@ -1,4 +1,7 @@
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
+
+
+
 <div class="mermaid">
 %% Code for flowchart below
 graph TB
@@ -34,15 +37,32 @@ graph TB
     class di orange
 </div>
 
+
 <div class="mermaid">
 %% Code for flowchart below
 graph TD
     subgraph Marketing Funnel
     a2[\____________________SEO____________________/]
-    a2-->youtube[\______________Youtube______________/]
-    youtube-->twitch[\____________Twitch___________/]
+    a2-->yt[\______________Youtube______________/]
+    yt-->twitch[\____________Twitch___________/]
     twitch-->a5[\_____Crowdfunding_____/]
     a5-->discord[\_____Discord_____/]
     discord-->a[\High Price<br> Subscribing/]
     end
+
+
+    classDef b1 fill:#A5F2F2;
+    classDef b2 fill:#4CE5E5;
+    classDef b3 fill:#19B2B2;
+    classDef b4 fill:#117C7C,color:white;
+    classDef b5 fill:#0A4747,color:white;
+    classDef b6 fill:#062C2C,color:white;
+
+    class a2 b1
+    class yt b2
+    class twitch b3
+    class a5 b4
+    class discord b5
+    class a b6
+    
 </div>
