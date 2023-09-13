@@ -1,27 +1,6 @@
 # Flywheel Test
 
-<style>
-    .mermaid {
-        white-space: pre;
-        font-family: monospace;
-        width: 100%;
-        max-width: 100%;
-    }
-</style>
-
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-</script>
-
-<script>
-    mermaid.initialize({
-        startOnLoad: true,
-        flowchart: {
-            useMaxWidth: true,
-        },
-        theme: 'default'
-    });
-</script>
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
 <!-- use the space below to define your chart -->
 <pre class="mermaid">
@@ -84,44 +63,3 @@ sequenceDiagram
 </div>
   
   
-
-<!-- mermaid script implementation below -->
-
-<script>
-        var config = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:true,
-                    htmlLabels:true
-            }
-        };
-        mermaid.initialize(config);
-    </script>
-
-
-
-<!-- mermaidAPI script implementation below -->
-<script src="mermaidAPI.min.js"></script>
-
-<script>
-  var apiConfig = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:false,
-                    htmlLabels:true
-            }
-        };
-    mermaidAPI.initialize(apiConfig);
-    $(function(){
-    // Example of using the API
-        var element = document.querySelector("#graphDiv");
-
-        var insertSvg = function(svgCode, bindFunctions){
-            element.innerHTML = svgCode;
-        };
-
-        var graphDefinition = 'graph TB\na-->b';
-        var graph = mermaidAPI.render('graphDiv', graphDefinition, insertSvg);
-    });
-</script>
-
