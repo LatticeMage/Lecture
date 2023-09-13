@@ -1,22 +1,32 @@
 # Flywheel
 
-<style>
-    body, html {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
+{% raw %}
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
-    }
 
-    iframe {
-        width: 100%; 
-        border: none; 
-        background-color: white;
-    }
+<div class="mermaid" width="700" height="350" >
+%% Code for flowchart below
+graph TB
+    subgraph Flywheel Effect
+        yt((Youtube<br>Twitch))
+        fan((Iron Fans))
+        dc((Discord))
+        game((Game Writing))
+        pay{{Crowdfunding}}
+        learn((Learning<br>New Concept))
+        yt -- value --> fan
+        fan ==> pay
+        dc ==> game
+        game ==> learn
+        learn ==> yt
+        pay ==> dc
 
-</style>
+        update -.-> pay
+        game -.-> yt
+        game -.-> update      
+        end
 
-<iframe width = "100%" height="700" src="local.html"></iframe>
+</div>
 
-<iframe width="100%" height="255" src="https://www.youtube.com/embed/zWk69IPsMQs" title="YouTube video player" frameborder="0" ></iframe>
+
+{% endraw %}
