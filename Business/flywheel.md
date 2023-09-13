@@ -1,24 +1,26 @@
 # Flywheel
 
 <style>
-    body, html {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /* Prevent any scrolling on the body */
+}
 
-    }
-
-    iframe {
-        width: 100%; 
-        border: none; 
-        background-color: white;
-    }
-
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    overflow: auto; /* Allow iframe content to scroll if necessary */
+}
 </style>
 
-<iframe height="100%" display="block" src="local.html"></iframe>
-
 <iframe src="local.html"></iframe>
-
-<iframe height="800" src="local.html"></iframe>
