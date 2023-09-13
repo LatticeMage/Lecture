@@ -1,49 +1,42 @@
----
-layout: slides
----
 
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-</script>
+# Flywheel
 
-<div class="slide">
-    <pre class="mermaid">
-        %% Code for flowchart below
-        graph TB
-            sq[Square shape] --> ci((Circle shape))
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
-            subgraph A subgraph
-                od>Odd shape]-- Two line<br>edge comment --> ro
-                di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
-                di==>ro2(Rounded square shape)
-            end
+<pre class="mermaid">
+%% Code for flowchart below
+graph TB
+    sq[Square shape] --> ci((Circle shape))
 
-            %% Notice that no text in shape are added here instead that is appended further down
-            e --> od3>Really long text with linebreak<br>in an Odd shape]
+    subgraph A subgraph
+        od>Odd shape]-- Two line<br>edge comment --> ro
+        di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
+        di==>ro2(Rounded square shape)
+    end
 
-            %% Comments after double percent signs
-            e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
+    %% Notice that no text in shape are added here instead that is appended further down
+    e --> od3>Really long text with linebreak<br>in an Odd shape]
 
-            cyr[Cyrillic]-->cyr2((Circle shape Начало));
+    %% Comments after double percent signs
+    e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
 
-                classDef green fill:#9f6,stroke:#333,stroke-width:2px;
-                classDef orange fill:#f96,stroke:#333,stroke-width:4px;
-                class sq,e green
-                class di orange
-    </pre>
+    cyr[Cyrillic]-->cyr2((Circle shape Начало));
 
-
-    <div class="mermaid">
-    %% Sequence diagram code
-    sequenceDiagram
-        Alice ->> Bob: Hello Bob, how are you?
-        Bob-->>John: How about you John?
-        Bob--x Alice: I am good thanks!
-        Bob-x John: I am good thanks!
-        Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-        Bob-->Alice: Checking with John...
-        Alice->John: Yes... John, how are you?
-    </div>
-
-</div>
+      classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+      class sq,e green
+      class di orange
+  </pre>
+  
+  <pre class="mermaid">
+  %% Sequence diagram code
+  sequenceDiagram
+      Alice ->> Bob: Hello Bob, how are you?
+      Bob-->>John: How about you John?
+      Bob--x Alice: I am good thanks!
+      Bob-x John: I am good thanks!
+      Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+  
+      Bob-->Alice: Checking with John...
+      Alice->John: Yes... John, how are you?
+  </pre>
