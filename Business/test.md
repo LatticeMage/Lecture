@@ -1,6 +1,11 @@
-# Flywheel
+---
+layout: slides
+---
 
-{% raw %}
+# Test
+
+<div class="slide">
+
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
 
@@ -29,4 +34,4 @@ graph TB
 </div>
 
 
-{% endraw %}
+</div>
