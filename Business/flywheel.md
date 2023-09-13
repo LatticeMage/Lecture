@@ -10,13 +10,16 @@
     }
 
     iframe {
-        width: 100%; 
+        width: 100% !important;
         border: none; 
-        background-color: white;
     }
 
+    .my-iframe {
+        width: 100%;
+        border: none;
+        background-color: white;
+    }
 </style>
 
-<iframe width = "100%" height="700" src="local.html"></iframe>
 
-<iframe width="100%" height="255" src="https://www.youtube.com/embed/zWk69IPsMQs" title="YouTube video player" frameborder="0" ></iframe>
+<iframe class="my-iframe" height="700" src="local.html"></iframe>
