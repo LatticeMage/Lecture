@@ -1,39 +1,48 @@
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
-
 <div class="mermaid">
 %% Code for flowchart below
 graph TB
-    sq[Square shape] --> ci((Circle shape))
+    subgraph Flywheel Effect
+        yt((Youtube<br>Twitch))
+        fan((Iron Fans))
+        dc((Discord))
+        hope((Game Wish))
+        game((Game Writing))
+        pay((Crowdfunding))
+        learn((Learning<br>New Concept))
+        yt -- value --> fan
+        fan -- Subscribing --> pay
+        dc ==> hope
+        hope ==> game
+        game ==> learn
+        learn ==> yt
+        pay ==> dc
 
-    subgraph A subgraph
-        od>Odd shape]-- Two line<br>edge comment --> ro
-        di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
-        di==>ro2(Rounded square shape)
-    end
+        update -.-> pay
+        game -.-> yt
+        fan -.-> pay
+        game -.-> update
+        pay -.-> game
 
-    %% Notice that no text in shape are added here instead that is appended further down
-    e --> od3>Really long text with linebreak<br>in an Odd shape]
+        end
 
-    %% Comments after double percent signs
-    e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
 
-    cyr[Cyrillic]-->cyr2((Circle shape Начало));
-
-      classDef green fill:#9f6,stroke:#333,stroke-width:2px;
-      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
-      class sq,e green
-      class di orange
+    classDef red fill:red;
+    classDef green fill:lightgreen;
+    classDef orange fill:cyan;
+    class update,x green
+    class di orange
 </div>
 
 <div class="mermaid">
-%% Sequence diagram code
-sequenceDiagram
-    Alice ->> Bob: Hello Bob, how are you?
-    Bob-->>John: How about you John?
-    Bob--x Alice: I am good thanks!
-    Bob-x John: I am good thanks!
-    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-    Bob-->Alice: Checking with John...
-    Alice->John: Yes... John, how are you?
+%% Code for flowchart below
+graph TD
+    subgraph Marketing Funnel
+    a2[\____________________SEO____________________/]
+    a2-->youtube[\______________Youtube______________/]
+    youtube-->twitch[\____________Twitch___________/]
+    twitch-->a5[\_____Crowdfunding_____/]
+    a5-->discord[\_____Discord_____/]
+    discord-->a[\High Price<br> Subscribing/]
+    end
 </div>
