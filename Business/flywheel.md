@@ -9,7 +9,7 @@
 
     }
 
-    .iframe {
+    iframe {
         width: 100%; 
         border: none; 
         background-color: white;
