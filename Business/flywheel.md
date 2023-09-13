@@ -24,7 +24,7 @@
 </script>
 
 <!-- use the space below to define your chart -->
-<div class="mermaid">
+<pre class="mermaid">
     %% Code for flowchart below
     graph TB
         sq[Square shape] --> ci((Circle shape))
@@ -47,8 +47,7 @@
          classDef orange fill:#f96,stroke:#333,stroke-width:4px;
          class sq,e green
          class di orange
-</div>
-
+</pre>
 
 <div class="mermaid">
 %% Sequence diagram code
@@ -78,51 +77,8 @@ sequenceDiagram
 
 <!-- mermaid output below -->
 <div class="mermaid" id="mermaidChart0">
-  <svg>
+    <svg>
         Chart ends up here
     </svg>
 </div>
   
-  
-
-<!-- mermaid script implementation below -->
-<script src="mermaid.min.js"></script>
-
-<script>
-        var config = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:false,
-                    htmlLabels:true
-            }
-        };
-        mermaid.initialize(config);
-    </script>
-
-
-
-<!-- mermaidAPI script implementation below -->
-<script src="mermaidAPI.min.js"></script>
-
-<script>
-  var apiConfig = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:false,
-                    htmlLabels:true
-            }
-        };
-    mermaidAPI.initialize(apiConfig);
-    $(function(){
-    // Example of using the API
-        var element = document.querySelector("#graphDiv");
-
-        var insertSvg = function(svgCode, bindFunctions){
-            element.innerHTML = svgCode;
-        };
-
-        var graphDefinition = 'graph TB\na-->b';
-        var graph = mermaidAPI.render('graphDiv', graphDefinition, insertSvg);
-    });
-</script>
-
