@@ -2,8 +2,9 @@
 
 <style>
     iframe {
-        width: 100%; /* Set iframe width to maximum */
-        border: none; /* Remove the border around the iframe */
+        width: 100%; 
+        border: none; 
+        background-color: white;
     }
 </style>
 
