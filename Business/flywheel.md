@@ -1,7 +1,28 @@
 
 # Flywheel
 
+<style>
+    .mermaid {
+        width: 100%;
+        max-width: 100%;
+        overflow: auto;
+    }
+</style>
+
+
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true
+            }
+        });
+    });
+</script>
 
 <div class="mermaid">
 {% raw %}
