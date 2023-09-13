@@ -2,8 +2,9 @@
 
 <style>
     iframe {
-        width: 100% !important; 
+        width: 100%; 
         border: none; 
+        background-color: white;
     }
 </style>
 

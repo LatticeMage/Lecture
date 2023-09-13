@@ -2,10 +2,10 @@
 
 <style>
     iframe {
-        border: none; 
-        background-color: white;
+        width: 100%; /* Set iframe width to maximum */
+        border: none; /* Remove the border around the iframe */
     }
 </style>
 
 
-<iframe width="100%" src="local.html"></iframe>
+<iframe src="local.html"></iframe>
