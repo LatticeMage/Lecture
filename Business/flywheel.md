@@ -17,5 +17,5 @@
 
 </style>
 
-<iframe height="100%" height="700" src="local.html"></iframe>
+<iframe width="100%" height="700" src="local.html"></iframe>
 
