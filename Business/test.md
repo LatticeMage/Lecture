@@ -1,12 +1,6 @@
 # Flywheel
 
 <style>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 html, body {
     width: 100%;
     height: 100%;
@@ -21,4 +15,6 @@ iframe {
 }
 </style>
 
-<iframe src="local.html"></iframe>
+<iframe width = "100%" height="700" src="local.html"></iframe>
+
+<iframe width="100%" height="255" src="https://www.youtube.com/embed/zWk69IPsMQs" title="YouTube video player" frameborder="0" ></iframe>
