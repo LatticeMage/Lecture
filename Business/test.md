@@ -2,8 +2,8 @@
 
 <style>
     .mermaid {
-        width: 100%;
-        max-width: 100%;
+        width: 700px;
+        max-width: 900px;
         overflow: auto;
     }
 </style>
