@@ -3,7 +3,9 @@
 
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
-<pre class="mermaid">
+<div class="mermaid">
+{% raw %}
+
 %% Code for flowchart below
 graph TB
     sq[Square shape] --> ci((Circle shape))
@@ -26,7 +28,11 @@ graph TB
       classDef orange fill:#f96,stroke:#333,stroke-width:4px;
       class sq,e green
       class di orange
-  </pre>
+
+{% endraw %}
+</div>
+
+<pre class="mermaid">
   
   <pre class="mermaid">
   %% Sequence diagram code
