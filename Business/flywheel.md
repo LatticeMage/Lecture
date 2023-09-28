@@ -1,5 +1,3 @@
 # Flywheel
 
-<iframe class="my-iframe" width="700" height="350" src="Flywheel Effect.html"></iframe>
-
-<iframe class="my-iframe" width="400" height="600" src="Marketing Funnel.html"></iframe>
+AI 數據飛輪 ex: Tesla在路上跑會累積使用者數據
